@@ -32,7 +32,38 @@
   .event-card:hover {
     box-shadow: 0 4px 15px rgba(0,0,0,0.1);
   }
+
 </style>
+<section class="event-search-app">
+  <div class="search-wrap">
+    <h1>Discover Local Events</h1>
+    <form class="search-form">
+      <div class="input-group">
+        <input type="text" placeholder="Search by keyword" aria-label="Search events">
+        <select aria-label="Select Category">
+          <option value="all">All Categories</option>
+          <option value="tech">Educational</option>
+          <option value="gaming">Recreational</option>
+          <option value="outdoor">Arts & Entertainment</option>
+        </select>
+        <button type="submit" class="btn-search">Search</button>
+      </div>
+    </form>
+  </div>
+
+  <div class="results-grid">
+    <div class="event-card">
+      <div class="card-image"></div>
+      <div class="card-content">
+        <span class="tag">Workshop</span>
+        <h3>Example Event Title</h3>
+        <p class="event-date">Oct 24 • 6:00 PM</p>
+        <p class="event-loc">Baltimore, MD</p>
+        <a href="#" class="btn-link">View Details</a>
+      </div>
+    </div>
+  </div>
+</section>
 
 <form>
     <input type="text"></input>
