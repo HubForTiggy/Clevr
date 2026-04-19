@@ -6,7 +6,7 @@ from pydantic import BaseModel
 # Create FastAPI app instance
 app = FastAPI()
 
-uri = "mongodb+srv://Ash:Happyness44@cluster0.52ctye9.mongodb.net/?appName=Cluster0"
+uri = ""
 client = MongoClient(uri)
 db = client["Hackathon"]
 collection = db["object"]
